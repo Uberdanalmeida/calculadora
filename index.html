@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcudora-uber</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="calc">
+        <h3>Calculadora</h3>
+        <div id="operations">
+        <div id="previous-operation"></div>
+        <div id="current-operation"></div>
+    </div>
+    
+     <div id="buttons-container">
+          <button onclick="limpou()">CE</button>
+          <button onclick="limpou()">C</button>
+          <button onclick="back()">DEL</button>
+          <button  onclick="testar('/')">/</button>
+          <button class="number" onclick="testar('7')">7</button>
+          <button class="number" onclick="testar('8')">8</button>
+          <button class="number" onclick="testar('9')">9</button>
+          <button  onclick="testar('*')">*</button>
+          <button class="number" onclick="testar('4')">4</button>
+          <button class="number" onclick="testar('5')">5</button>
+          <button class="number" onclick="testar('6')">6</button>
+          <button  onclick=" testar('-')">-</button>
+          <button class="number" onclick="testar('1')">1</button>
+          <button class="number" onclick="testar('2')">2</button>
+          <button class="number" onclick="testar('3')">3</button>
+          <button  onclick="testar('+')">+</button>
+          <button class="number" onclick="testar('0')">0</button>
+          <button class="number" onclick="testar('.')">.</button>
+          <button id="equal" onclick="calcular()">=</button>
+     </div>
+    
+    </div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
