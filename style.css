@@ -76,36 +76,45 @@ body{
     background-color: #bababa;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
        body {
-        background-color: white;
+        display: flex;
+        height: 100vh;
+        background-color: black;
        }
 
        #operations{
-        height: 100%;
-        background-color: rgb(71, 68, 68);
+        background-color: aqua;
        }
 
        h3 {
-        background-color: rgb(71, 68, 68);;
-        color: white;
+        background-color: transparent;
+        text-align: center;
+        color: black;
        }
 
        #calc {
-        text-align: center;
+        background-color: aqua;
+        border-radius: 8px;
+        border: 1px solid black;
+        width: 100%;
         
        }
 
        #buttons-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 3px;
+        height: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        background-color: black;
+        border: 1px solid black;
     }
 
     #current-operation {
-        background-color: rgb(71, 68, 68);;
+        background-color: aqua;
+        border: 1px solid black;
         text-align: center;
-        color: white;
+        margin-bottom: 3px;
+        color: black;
     }
 
 }
