@@ -80,11 +80,10 @@ body{
        body {
         display: flex;
         height: 100vh;
-        background-color: black;
        }
 
        #operations{
-        background-color: aqua;
+        background-color: black;
        }
 
        h3 {
@@ -94,9 +93,9 @@ body{
        }
 
        #calc {
-        background-color: aqua;
+        background-color: black;
         border-radius: 8px;
-        border: 1px solid black;
+        border: 1px solid white;
         width: 100%;
         
        }
@@ -110,11 +109,11 @@ body{
     }
 
     #current-operation {
-        background-color: aqua;
+        background-color: black;
         border: 1px solid black;
         text-align: center;
         margin-bottom: 3px;
-        color: black;
+        color: white;
     }
 
 }
